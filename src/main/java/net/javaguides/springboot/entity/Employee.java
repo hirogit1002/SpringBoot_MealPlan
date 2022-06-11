@@ -10,13 +10,16 @@ import javax.persistence.*;
 @Builder
 @Entity
 @Table(name = "employees")
-
 public class Employee {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
+	
+	@Column(name = "first_name", nullable = false)
 	private String firstname;
+	
+	@Column(name = "flast_name")
 	private String lastname;
 	private String email;
 }
