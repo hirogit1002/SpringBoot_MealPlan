@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: net.javaguides.springboot.SpringbootBackendApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 12.365 s <<< FAILURE! - in net.javaguides.springboot.SpringbootBackendApplicationTests
+contextLoads  Time elapsed: 0.056 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The method builder() is undefined for the type Employee
+
+
